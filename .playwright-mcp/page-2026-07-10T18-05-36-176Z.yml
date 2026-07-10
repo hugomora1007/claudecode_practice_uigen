@@ -1,0 +1,33 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e3]:
+    - generic [ref=f17e5]:
+      - heading "React Component Generator" [level=1] [ref=f17e7]
+      - generic [ref=f17e9]:
+        - generic [ref=f17e71]:
+          - generic [ref=f17e72]: Create a testimonial card component with a quote, avatar, name, and title
+          - generic [ref=f17e89]:
+            - generic [ref=f17e90]: Creating App.jsx
+            - separator [ref=f17e93]
+            - generic [ref=f17e94]: Generating...
+        - generic [ref=f17e20]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=f17e21]
+          - button [disabled] [ref=f17e22]
+    - separator [ref=f17e26]
+    - generic [ref=f17e28]:
+      - generic [ref=f17e29]:
+        - tablist [ref=f17e31]:
+          - tab "Preview" [selected] [ref=f17e32]
+          - tab "Code" [ref=f17e33]
+        - generic [ref=f17e34]:
+          - button "Sign In" [ref=f17e35]
+          - button "Sign Up" [ref=f17e36]
+      - iframe [ref=f17e98]:
+        
+  - generic [ref=f17e53] [cursor=pointer]:
+    - button "Open issues overlay" [ref=f17e54]:
+      - generic [ref=f17e58]:
+        - generic [ref=f17e59]: "0"
+        - generic [ref=f17e60]: "1"
+      - generic [ref=f17e61]: Issue
+    - button "Collapse issues badge" [ref=f17e62]
+  - alert [ref=f17e65]

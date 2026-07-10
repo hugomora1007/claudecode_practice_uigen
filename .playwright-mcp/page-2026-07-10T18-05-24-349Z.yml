@@ -1,0 +1,20 @@
+- generic [ref=f17e3]:
+  - generic [ref=f17e5]:
+    - heading "React Component Generator" [level=1] [ref=f17e7]
+    - generic [ref=f17e9]:
+      - generic [ref=f17e11]:
+        - paragraph [ref=f17e16]: Start a conversation to generate React components
+        - paragraph [ref=f17e17]: I can help you create buttons, forms, cards, and more
+      - generic [ref=f17e20]:
+        - textbox "Describe the React component you want to create..." [ref=f17e21]
+        - button [disabled] [ref=f17e22]
+  - separator [ref=f17e26]
+  - generic [ref=f17e28]:
+    - generic [ref=f17e29]:
+      - tablist [ref=f17e31]:
+        - tab "Preview" [selected] [ref=f17e32]
+        - tab "Code" [ref=f17e33]
+      - generic [ref=f17e34]:
+        - button "Sign In" [ref=f17e35]
+        - button "Sign Up" [ref=f17e36]
+    - iframe [ref=f17e39]

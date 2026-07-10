@@ -1,0 +1,119 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e3]:
+    - generic [ref=f17e5]:
+      - heading "React Component Generator" [level=1] [ref=f17e7]
+      - generic [ref=f17e9]:
+        - generic [ref=f17e71]:
+          - generic [ref=f17e72]: Create a testimonial card component with a quote, avatar, name, and title
+          - generic [ref=f17e107]:
+            - generic [ref=f17e108]: Creating App.jsx
+            - separator [ref=f17e111]
+            - generic [ref=f17e112]: Creating TestimonialCard.jsx
+            - separator [ref=f17e115]
+            - paragraph [ref=f17e117]: Done. Created a testimonial card with a decorative opening quote mark, quote text, divider, and author section with avatar, name, and title. Uses warm amber and slate tones with subtle borders and shadows.
+        - generic [ref=f17e20]:
+          - textbox "Describe the React component you want to create..." [ref=f17e21]
+          - button [disabled] [ref=f17e22]
+    - separator [ref=f17e26]
+    - generic [ref=f17e28]:
+      - generic [ref=f17e29]:
+        - tablist [ref=f17e31]:
+          - tab "Preview" [ref=f17e32]
+          - tab "Code" [selected] [ref=f17e33]
+        - generic [ref=f17e34]:
+          - button "Sign In" [ref=f17e35]
+          - button "Sign Up" [ref=f17e36]
+      - generic [ref=f17e118]:
+        - generic [ref=f17e124]:
+          - generic [ref=f17e125]:
+            - generic [ref=f17e126] [cursor=pointer]: components
+            - generic [ref=f17e132]: TestimonialCard.jsx
+          - generic [ref=f17e141]: App.jsx
+        - separator [ref=f17e149]
+        - code [ref=f17e154]:
+          - generic [ref=f17e155]:
+            - generic [ref=f17e157]:
+              - generic [ref=f17e292]:
+                - generic [ref=f17e293] [cursor=pointer]: 
+                - generic [ref=f17e294]: "1"
+              - generic [ref=f17e295]:
+                - generic [ref=f17e296] [cursor=pointer]: 
+                - generic [ref=f17e297]: "2"
+              - generic [ref=f17e298]:
+                - generic [ref=f17e299] [cursor=pointer]: 
+                - generic [ref=f17e300]: "3"
+              - generic [ref=f17e301]: "4"
+              - generic [ref=f17e303]:
+                - generic [ref=f17e304] [cursor=pointer]: 
+                - generic [ref=f17e305]: "5"
+              - generic [ref=f17e306]: "6"
+              - generic [ref=f17e176]: "7"
+              - generic [ref=f17e179]: "8"
+              - generic [ref=f17e182]: "9"
+              - generic [ref=f17e308]:
+                - generic [ref=f17e309] [cursor=pointer]: 
+                - generic [ref=f17e310]: "10"
+              - generic [ref=f17e186]: "11"
+              - generic [ref=f17e311]:
+                - generic [ref=f17e312] [cursor=pointer]: 
+                - generic [ref=f17e313]: "12"
+              - generic [ref=f17e317]: "13"
+              - generic [ref=f17e319]: "14"
+              - generic [ref=f17e321]: "15"
+              - generic [ref=f17e323]: "16"
+              - generic [ref=f17e325]: "17"
+              - generic [ref=f17e328]: "18"
+              - generic [ref=f17e330]: "19"
+              - generic [ref=f17e332]:
+                - generic [ref=f17e333] [cursor=pointer]: 
+                - generic [ref=f17e334]: "20"
+              - generic [ref=f17e335]: "21"
+              - generic [ref=f17e337]:
+                - generic [ref=f17e338] [cursor=pointer]: 
+                - generic [ref=f17e339]: "22"
+              - generic [ref=f17e340]: "23"
+              - generic [ref=f17e342]: "24"
+              - generic [ref=f17e344]: "25"
+              - generic [ref=f17e347]: "26"
+              - generic [ref=f17e349]: "27"
+            - generic [ref=f17e254]:
+              - generic [ref=f17e508]: "export default function TestimonialCard({ quote, avatar, name, title }) {"
+              - generic [ref=f17e510]: return (
+              - generic [ref=f17e512]: <div className="w-full max-w-md">
+              - generic [ref=f17e514]: "{/* Quote mark accent */}"
+              - generic [ref=f17e516]: <div className="mb-6">
+              - generic [ref=f17e518]: <span className="text-6xl text-amber-200 font-light leading-none">"</
+              - generic [ref=f17e520]: </div>
+              - generic [ref=f17e523]: "{/* Card */}"
+              - generic [ref=f17e525]: <div className="bg-white rounded-2xl p-8 shadow-lg border
+              - generic [ref=f17e527]: "{/* Quote text */}"
+              - generic [ref=f17e529]: <p className="text-slate-700 text-lg leading-relaxed mb-8 font-light
+              - generic [ref=f17e531]: span>
+              - generic [ref=f17e533]: border-amber-100/50">
+              - generic [ref=f17e535]: tracking-wide">
+              - generic [ref=f17e537]: "{quote}"
+              - generic [ref=f17e539]: </p>
+              - generic [ref=f17e542]: "{/* Divider */}"
+              - generic [ref=f17e544]: <div className="h-px bg-gradient-to-r from-amber-200 via-amber-100
+              - generic [ref=f17e546]: to-transparent mb-6" />
+              - generic [ref=f17e549]: "{/* Author info */}"
+              - generic [ref=f17e551]: <div className="flex items-center gap-4">
+              - generic [ref=f17e553]: "{/* Avatar */}"
+              - generic [ref=f17e555]: <img
+              - generic [ref=f17e557]: "src={avatar}"
+              - generic [ref=f17e559]: "alt={name}"
+              - generic [ref=f17e561]: className="w-14 h-14 rounded-full object-cover ring-2
+              - generic [ref=f17e563]: ring-amber-100"
+              - generic [ref=f17e565]: />
+            - textbox "Editor content" [ref=f17e290]: "); }"
+  - generic [ref=f17e53] [cursor=pointer]:
+    - button "Open issues overlay" [ref=f17e54]:
+      - generic [ref=f17e58]:
+        - generic [ref=f17e59]: "0"
+        - generic [ref=f17e60]: "1"
+      - generic [ref=f17e61]: Issue
+    - button "Collapse issues badge" [ref=f17e62]
+  - alert [ref=f17e65]
+  - generic [ref=f17e291]:
+    - alert
+    - alert

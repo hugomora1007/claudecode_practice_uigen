@@ -1,0 +1,126 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e3]:
+    - generic [ref=f8e5]:
+      - heading "React Component Generator" [level=1] [ref=f8e7]
+      - generic [ref=f8e9]:
+        - generic [ref=f8e71]:
+          - generic [ref=f8e72]: Create a testimonial card component with a quote, avatar, name, and title
+          - generic [ref=f8e107]:
+            - generic [ref=f8e108]: Creating App.jsx
+            - separator [ref=f8e111]
+            - generic [ref=f8e112]: Creating TestimonialCard.jsx
+            - separator [ref=f8e115]
+            - generic [ref=f8e116]:
+              - paragraph [ref=f8e117]: "Done. Created a testimonial card with:"
+              - list [ref=f8e118]:
+                - listitem [ref=f8e119]: Elegant serif quote mark accent
+                - listitem [ref=f8e120]: Warm amber/orange color palette with subtle gradients
+                - listitem [ref=f8e121]: Smooth hover effects (glow background, shadow lift)
+                - listitem [ref=f8e122]: Clean typography hierarchy
+                - listitem [ref=f8e123]: Avatar with border and hover overlay
+                - listitem [ref=f8e124]: Responsive design with Tailwind
+        - generic [ref=f8e20]:
+          - textbox "Describe the React component you want to create..." [ref=f8e21]
+          - button [disabled] [ref=f8e22]
+    - separator [ref=f8e26]
+    - generic [ref=f8e28]:
+      - generic [ref=f8e29]:
+        - tablist [ref=f8e31]:
+          - tab "Preview" [ref=f8e32]
+          - tab "Code" [selected] [ref=f8e33]
+        - generic [ref=f8e34]:
+          - button "Sign In" [ref=f8e35]
+          - button "Sign Up" [ref=f8e36]
+      - generic [ref=f8e125]:
+        - generic [ref=f8e131]:
+          - generic [ref=f8e132]:
+            - generic [ref=f8e133] [cursor=pointer]: components
+            - generic [ref=f8e139]: TestimonialCard.jsx
+          - generic [ref=f8e148]: App.jsx
+        - separator [ref=f8e156]
+        - code [ref=f8e161]:
+          - generic [ref=f8e162]:
+            - generic [ref=f8e164]:
+              - generic [ref=f8e333]:
+                - generic [ref=f8e334] [cursor=pointer]: 
+                - generic [ref=f8e335]: "1"
+              - generic [ref=f8e336]:
+                - generic [ref=f8e337] [cursor=pointer]: 
+                - generic [ref=f8e338]: "2"
+              - generic [ref=f8e339]:
+                - generic [ref=f8e340] [cursor=pointer]: 
+                - generic [ref=f8e341]: "3"
+              - generic [ref=f8e342]: "4"
+              - generic [ref=f8e344]: "5"
+              - generic [ref=f8e346]: "6"
+              - generic [ref=f8e348]: "7"
+              - generic [ref=f8e350]:
+                - generic [ref=f8e351] [cursor=pointer]: 
+                - generic [ref=f8e352]: "8"
+              - generic [ref=f8e190]: "9"
+              - generic [ref=f8e193]: "10"
+              - generic [ref=f8e195]: "11"
+              - generic [ref=f8e197]: "12"
+              - generic [ref=f8e353]:
+                - generic [ref=f8e354] [cursor=pointer]: 
+                - generic [ref=f8e355]: "13"
+              - generic [ref=f8e201]: "14"
+              - generic [ref=f8e359]: "15"
+              - generic [ref=f8e361]: "16"
+              - generic [ref=f8e363]: "17"
+              - generic [ref=f8e365]: "18"
+              - generic [ref=f8e368]: "19"
+              - generic [ref=f8e370]: "20"
+              - generic [ref=f8e372]:
+                - generic [ref=f8e373] [cursor=pointer]: 
+                - generic [ref=f8e374]: "21"
+              - generic [ref=f8e375]: "22"
+              - generic [ref=f8e377]:
+                - generic [ref=f8e378] [cursor=pointer]: 
+                - generic [ref=f8e379]: "23"
+              - generic [ref=f8e380]:
+                - generic [ref=f8e381] [cursor=pointer]: 
+                - generic [ref=f8e382]: "24"
+              - generic [ref=f8e383]: "25"
+              - generic [ref=f8e385]: "26"
+            - generic [ref=f8e289]:
+              - generic [ref=f8e532]: "export default function TestimonialCard({ quote, avatar, name, title }) {"
+              - generic [ref=f8e534]: return (
+              - generic [ref=f8e536]: <div className="group relative">
+              - generic [ref=f8e538]: "{/* Background accent */}"
+              - generic [ref=f8e540]: <div className="absolute -inset-0.5 bg-gradient-to-r from-amber-200
+              - generic [ref=f8e542]: via-orange-100 to-amber-100 rounded-2xl opacity-0 group-hover:opacity-100
+              - generic [ref=f8e546]: "{/* Card */}"
+              - generic [ref=f8e548]: <div className="relative bg-white rounded-2xl p-8 border border-amber-100/
+              - generic [ref=f8e550]: 50 shadow-sm hover:shadow-lg transition-shadow duration-300">
+              - generic [ref=f8e552]: "{/* Quote mark accent */}"
+              - generic [ref=f8e554]: <div className="absolute top-6 left-6 text-amber-200/40 text-5xl
+              - generic [ref=f8e558]: "{/* Quote text */}"
+              - generic [ref=f8e560]: <p className="relative text-slate-700 text-lg leading-relaxed mb-8
+              - generic [ref=f8e562]: "{quote}"
+              - generic [ref=f8e564]: transition-opacity duration-500 blur" />
+              - generic [ref=f8e566]: font-serif leading-none">"</div>
+              - generic [ref=f8e568]: font-light tracking-wide">
+              - generic [ref=f8e570]: </p>
+              - generic [ref=f8e574]: "{/* Divider */}"
+              - generic [ref=f8e576]: <div className="h-px bg-gradient-to-r from-amber-100 via-orange-100
+              - generic [ref=f8e578]: to-transparent mb-6" />
+              - generic [ref=f8e582]: "{/* Author section */}"
+              - generic [ref=f8e584]: <div className="flex items-center gap-4">
+              - generic [ref=f8e586]: "{/* Avatar */}"
+              - generic [ref=f8e588]: <div className="relative">
+              - generic [ref=f8e590]: <img
+              - generic [ref=f8e592]: "src={avatar}"
+              - generic [ref=f8e594]: "alt={name}"
+            - textbox "Editor content" [ref=f8e331]: "}"
+  - generic [ref=f8e53] [cursor=pointer]:
+    - button "Open issues overlay" [ref=f8e54]:
+      - generic [ref=f8e58]:
+        - generic [ref=f8e59]: "0"
+        - generic [ref=f8e60]: "1"
+      - generic [ref=f8e61]: Issue
+    - button "Collapse issues badge" [ref=f8e62]
+  - alert [ref=f8e65]
+  - generic [ref=f8e332]:
+    - alert
+    - alert

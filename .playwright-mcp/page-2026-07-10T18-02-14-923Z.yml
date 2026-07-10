@@ -1,0 +1,106 @@
+- generic [ref=f11e1]:
+  - generic [ref=f11e3]:
+    - generic [ref=f11e5]:
+      - heading "React Component Generator" [level=1] [ref=f11e7]
+      - generic [ref=f11e9]:
+        - generic [ref=f11e71]:
+          - generic [ref=f11e72]: Create a testimonial card component with a quote, avatar, name, and title
+          - generic [ref=f11e107]:
+            - generic [ref=f11e108]: Creating App.jsx
+            - separator [ref=f11e111]
+            - generic [ref=f11e112]: Creating TestimonialCard.jsx
+            - separator [ref=f11e115]
+            - generic [ref=f11e116]:
+              - paragraph [ref=f11e117]: "Done. Created a testimonial card with:"
+              - list [ref=f11e118]:
+                - listitem [ref=f11e119]: Large decorative quote mark
+                - listitem [ref=f11e120]: Quote text with light font weight and generous spacing
+                - listitem [ref=f11e121]: Gradient accent divider
+                - listitem [ref=f11e122]: Avatar with subtle border
+                - listitem [ref=f11e123]: Name and title with distinct typography
+                - listitem [ref=f11e124]: Soft shadow that enhances on hover
+        - generic [ref=f11e20]:
+          - textbox "Describe the React component you want to create..." [ref=f11e21]
+          - button [disabled] [ref=f11e22]
+    - separator [ref=f11e26]
+    - generic [ref=f11e28]:
+      - generic [ref=f11e29]:
+        - tablist [ref=f11e31]:
+          - tab "Preview" [ref=f11e32]
+          - tab "Code" [active] [selected] [ref=f11e33]
+        - generic [ref=f11e34]:
+          - button "Sign In" [ref=f11e35]
+          - button "Sign Up" [ref=f11e36]
+      - generic [ref=f11e125]:
+        - generic [ref=f11e131]:
+          - generic [ref=f11e132]:
+            - generic [ref=f11e133] [cursor=pointer]: components
+            - generic [ref=f11e139]: TestimonialCard.jsx
+          - generic [ref=f11e148]: App.jsx
+        - separator [ref=f11e156]
+        - code [ref=f11e161]:
+          - generic [ref=f11e162]:
+            - generic [ref=f11e164]:
+              - generic [ref=f11e165]: "1"
+              - generic [ref=f11e168]: "2"
+              - generic [ref=f11e170]:
+                - generic [ref=f11e171] [cursor=pointer]: 
+                - generic [ref=f11e172]: "3"
+              - generic [ref=f11e173]:
+                - generic [ref=f11e174] [cursor=pointer]: 
+                - generic [ref=f11e175]: "4"
+              - generic [ref=f11e176]:
+                - generic [ref=f11e177] [cursor=pointer]: 
+                - generic [ref=f11e178]: "5"
+              - generic [ref=f11e180]:
+                - generic [ref=f11e181] [cursor=pointer]: 
+                - generic [ref=f11e182]: "6"
+              - generic [ref=f11e183]:
+                - generic [ref=f11e184] [cursor=pointer]: 
+                - generic [ref=f11e185]: "7"
+              - generic [ref=f11e186]: "8"
+              - generic [ref=f11e190]: "9"
+              - generic [ref=f11e193]: "10"
+              - generic [ref=f11e195]: "11"
+              - generic [ref=f11e197]: "12"
+              - generic [ref=f11e199]: "13"
+              - generic [ref=f11e201]: "14"
+              - generic [ref=f11e203]: "15"
+              - generic [ref=f11e205]: "16"
+              - generic [ref=f11e207]: "17"
+            - generic [ref=f11e289]:
+              - generic [ref=f11e290]: import TestimonialCard from '@/components/TestimonialCard';
+              - generic [ref=f11e293]: "export default function App() {"
+              - generic [ref=f11e295]: return (
+              - generic [ref=f11e297]: <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white
+              - generic [ref=f11e299]: to-orange-50 p-8">
+              - generic [ref=f11e301]: <div className="max-w-md mx-auto">
+              - generic [ref=f11e303]: <TestimonialCard
+              - generic [ref=f11e305]: quote="The attention to detail and thoughtfulness in every
+              - generic [ref=f11e307]: interaction made all the difference. I felt genuinely heard and
+              - generic [ref=f11e309]: valued."
+              - generic [ref=f11e311]: avatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?
+              - generic [ref=f11e313]: w=400&h=400&fit=crop"
+              - generic [ref=f11e315]: name="Sarah Chen"
+              - generic [ref=f11e317]: title="Creative Director"
+              - generic [ref=f11e319]: />
+              - generic [ref=f11e321]: </div>
+              - generic [ref=f11e323]: </div>
+              - generic [ref=f11e325]: );
+              - generic [ref=f11e327]: "}"
+            - textbox "Editor content" [ref=f11e331]
+            - generic:
+              - generic:
+                - generic:
+                  - list
+  - generic [ref=f11e53] [cursor=pointer]:
+    - button "Open issues overlay" [ref=f11e54]:
+      - generic [ref=f11e58]:
+        - generic [ref=f11e59]: "0"
+        - generic [ref=f11e60]: "1"
+      - generic [ref=f11e61]: Issue
+    - button "Collapse issues badge" [ref=f11e62]
+  - alert [ref=f11e65]
+  - generic [ref=f11e332]:
+    - alert
+    - alert

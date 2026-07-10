@@ -1,0 +1,41 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e5]:
+      - heading "React Component Generator" [level=1] [ref=f3e7]
+      - generic [ref=f3e9]:
+        - generic [ref=f3e287]:
+          - generic [ref=f3e288]: Create a simple primary button component
+          - generic [ref=f3e328]:
+            - generic [ref=f3e329]: Creating App.jsx
+            - separator [ref=f3e332]
+            - paragraph [ref=f3e334]: "Now creating the button component:"
+            - generic [ref=f3e335]: Creating PrimaryButton.jsx
+            - separator [ref=f3e338]
+            - paragraph [ref=f3e340]:
+              - text: Done. Created a
+              - code [ref=f3e341]: PrimaryButton
+              - text: component with emerald green styling, smooth transitions, and an active scale effect. It supports disabled state and accepts standard button props.
+        - generic [ref=f3e20]:
+          - textbox "Describe the React component you want to create..." [ref=f3e21]
+          - button [disabled] [ref=f3e22]
+    - separator [ref=f3e26]
+    - generic [ref=f3e28]:
+      - generic [ref=f3e29]:
+        - tablist [ref=f3e31]:
+          - tab "Preview" [selected] [ref=f3e32]
+          - tab "Code" [ref=f3e33]
+        - generic [ref=f3e34]:
+          - button "Sign In" [ref=f3e35]
+          - button "Sign Up" [ref=f3e36]
+      - iframe [ref=f3e319]:
+        - generic [ref=f5e4]:
+          - button "Click me" [ref=f5e5] [cursor=pointer]
+          - button "Disabled" [disabled] [ref=f5e6]
+  - generic [ref=f3e53] [cursor=pointer]:
+    - button "Open issues overlay" [ref=f3e54]:
+      - generic [ref=f3e58]:
+        - generic [ref=f3e59]: "0"
+        - generic [ref=f3e60]: "1"
+      - generic [ref=f3e61]: Issue
+    - button "Collapse issues badge" [ref=f3e62]
+  - alert [ref=f3e65]

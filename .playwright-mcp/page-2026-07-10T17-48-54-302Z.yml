@@ -1,0 +1,76 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: Create a simple primary button component
+          - generic [ref=e85]:
+            - generic [ref=e86]: Creating App.jsx
+            - separator [ref=e89]
+            - paragraph [ref=e91]: "Now creating the PrimaryButton component:"
+            - generic [ref=e92]: Creating PrimaryButton.jsx
+            - separator [ref=e95]
+            - paragraph [ref=e97]: Done! Created a simple primary button component with hover and disabled states.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [active] [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e99]:
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107] [cursor=pointer]: components
+            - generic [ref=e113]: PrimaryButton.jsx
+          - generic [ref=e122]: App.jsx
+        - separator [ref=e130]
+        - code [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e138]:
+              - generic [ref=e139]: "1"
+              - generic [ref=e142]: "2"
+              - generic [ref=e144]:
+                - generic [ref=e145] [cursor=pointer]: 
+                - generic [ref=e146]: "3"
+              - generic [ref=e147]:
+                - generic [ref=e148] [cursor=pointer]: 
+                - generic [ref=e149]: "4"
+              - generic [ref=e150]:
+                - generic [ref=e151] [cursor=pointer]: 
+                - generic [ref=e152]: "5"
+              - generic [ref=e153]:
+                - generic [ref=e154] [cursor=pointer]: 
+                - generic [ref=e155]: "6"
+              - generic [ref=e156]: "7"
+              - generic [ref=e158]: "8"
+              - generic [ref=e160]: "9"
+              - generic [ref=e162]: "10"
+              - generic [ref=e164]: "11"
+              - generic [ref=e166]: "12"
+            - generic [ref=e198]:
+              - generic [ref=e199]: import PrimaryButton from '@/components/PrimaryButton';
+              - generic [ref=e202]: "export default function App() {"
+              - generic [ref=e204]: return (
+              - generic [ref=e206]: <div className="flex items-center justify-center min-h-screen bg-gray-100">
+              - generic [ref=e208]: "<PrimaryButton onClick={() => alert('Button clicked!')}>"
+              - generic [ref=e210]: Click Me
+              - generic [ref=e212]: </PrimaryButton>
+              - generic [ref=e214]: </div>
+              - generic [ref=e216]: );
+              - generic [ref=e218]: "}"
+            - textbox "Editor content" [ref=e222]
+            - generic:
+              - generic:
+                - generic:
+                  - list
+  - alert [ref=e48]
+  - generic [ref=e223]:
+    - alert
+    - alert

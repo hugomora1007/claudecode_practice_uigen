@@ -1,0 +1,118 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e3]:
+    - generic [ref=f14e5]:
+      - heading "React Component Generator" [level=1] [ref=f14e7]
+      - generic [ref=f14e9]:
+        - generic [ref=f14e54]:
+          - generic [ref=f14e55]: Create a testimonial card component with a quote, avatar, name, and title
+          - generic [ref=f14e90]:
+            - generic [ref=f14e91]: Creating App.jsx
+            - separator [ref=f14e94]
+            - generic [ref=f14e95]: Creating TestimonialCard.jsx
+            - separator [ref=f14e98]
+            - paragraph [ref=f14e100]: Done. Created a testimonial card component with a decorative curly quote mark, quote text, avatar with ring accent, and author name/title. The card has a subtle gradient background and smooth hover effect.
+        - generic [ref=f14e20]:
+          - textbox "Describe the React component you want to create..." [ref=f14e21]
+          - button [disabled] [ref=f14e22]
+    - separator [ref=f14e26]
+    - generic [ref=f14e28]:
+      - generic [ref=f14e29]:
+        - tablist [ref=f14e31]:
+          - tab "Preview" [ref=f14e32]
+          - tab "Code" [selected] [ref=f14e33]
+        - generic [ref=f14e34]:
+          - button "Sign In" [ref=f14e35]
+          - button "Sign Up" [ref=f14e36]
+      - generic [ref=f14e101]:
+        - generic [ref=f14e107]:
+          - generic [ref=f14e108]:
+            - generic [ref=f14e109] [cursor=pointer]: components
+            - generic [ref=f14e115]: TestimonialCard.jsx
+          - generic [ref=f14e124]: App.jsx
+        - separator [ref=f14e132]
+        - code [ref=f14e137]:
+          - generic [ref=f14e138]:
+            - generic [ref=f14e140]:
+              - generic [ref=f14e309]:
+                - generic [ref=f14e310] [cursor=pointer]: 
+                - generic [ref=f14e311]: "1"
+              - generic [ref=f14e312]:
+                - generic [ref=f14e313] [cursor=pointer]: 
+                - generic [ref=f14e314]: "2"
+              - generic [ref=f14e315]:
+                - generic [ref=f14e316] [cursor=pointer]: 
+                - generic [ref=f14e317]: "3"
+              - generic [ref=f14e318]: "4"
+              - generic [ref=f14e320]:
+                - generic [ref=f14e321] [cursor=pointer]: 
+                - generic [ref=f14e322]: "5"
+              - generic [ref=f14e323]: "6"
+              - generic [ref=f14e325]: "7"
+              - generic [ref=f14e162]: "8"
+              - generic [ref=f14e166]: "9"
+              - generic [ref=f14e327]:
+                - generic [ref=f14e328] [cursor=pointer]: 
+                - generic [ref=f14e329]: "10"
+              - generic [ref=f14e171]: "11"
+              - generic [ref=f14e173]: "12"
+              - generic [ref=f14e175]: "13"
+              - generic [ref=f14e177]: "14"
+              - generic [ref=f14e179]: "15"
+              - generic [ref=f14e333]: "16"
+              - generic [ref=f14e335]: "17"
+              - generic [ref=f14e337]:
+                - generic [ref=f14e338] [cursor=pointer]: 
+                - generic [ref=f14e339]: "18"
+              - generic [ref=f14e340]:
+                - generic [ref=f14e341] [cursor=pointer]: 
+                - generic [ref=f14e342]: "19"
+              - generic [ref=f14e343]: "20"
+              - generic [ref=f14e345]: "21"
+              - generic [ref=f14e347]: "22"
+              - generic [ref=f14e350]: "23"
+              - generic [ref=f14e352]:
+                - generic [ref=f14e353] [cursor=pointer]: 
+                - generic [ref=f14e354]: "24"
+              - generic [ref=f14e355]:
+                - generic [ref=f14e356] [cursor=pointer]: 
+                - generic [ref=f14e357]: "25"
+              - generic [ref=f14e358]: "26"
+              - generic [ref=f14e360]: "27"
+              - generic [ref=f14e362]:
+                - generic [ref=f14e363] [cursor=pointer]: 
+                - generic [ref=f14e364]: "28"
+            - generic [ref=f14e265]:
+              - generic [ref=f14e504]: "export default function TestimonialCard({ quote, avatar, name, title }) {"
+              - generic [ref=f14e506]: return (
+              - generic [ref=f14e508]: <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200/
+              - generic [ref=f14e510]: "{/* Quote mark accent */}"
+              - generic [ref=f14e512]: <div className="text-5xl text-amber-200 font-serif mb-4 leading-none">
+              - generic [ref=f14e514]: "\""
+              - generic [ref=f14e516]: </div>
+              - generic [ref=f14e519]: "{/* Quote text */}"
+              - generic [ref=f14e521]: <p className="text-slate-700 text-lg leading-relaxed mb-8 font-light
+              - generic [ref=f14e523]: "{quote}"
+              - generic [ref=f14e525]: </p>
+              - generic [ref=f14e528]: "{/* Divider */}"
+              - generic [ref=f14e530]: <div className="w-12 h-1 bg-gradient-to-r from-amber-400 to-amber-300
+              - generic [ref=f14e532]: 50 hover:shadow-xl transition-shadow duration-300">
+              - generic [ref=f14e534]: tracking-wide">
+              - generic [ref=f14e536]: rounded-full mb-6" />
+              - generic [ref=f14e539]: "{/* Author info */}"
+              - generic [ref=f14e541]: <div className="flex items-center gap-4">
+              - generic [ref=f14e543]: <img
+              - generic [ref=f14e545]: "src={avatar}"
+              - generic [ref=f14e547]: "alt={name}"
+              - generic [ref=f14e549]: className="w-14 h-14 rounded-full object-cover ring-2 ring-amber-200/
+              - generic [ref=f14e551]: 50"
+              - generic [ref=f14e553]: />
+              - generic [ref=f14e555]: <div>
+              - generic [ref=f14e557]: <p className="font-semibold text-slate-900 text-sm tracking-tight">
+              - generic [ref=f14e559]: "{name}"
+              - generic [ref=f14e561]: </p>
+              - generic [ref=f14e563]: <p className="text-slate-500 text-xs uppercase tracking-widest">
+            - textbox "Editor content" [ref=f14e307]: "</p> <p className=\"text-slate-500 text-xs uppercase tracking-widest\"> {title} </p> </div> </div> </div> ); }"
+  - alert [ref=f14e48]
+  - generic [ref=f14e308]:
+    - alert
+    - alert

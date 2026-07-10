@@ -1,0 +1,91 @@
+- generic [ref=f17e1]:
+  - generic [ref=f17e3]:
+    - generic [ref=f17e5]:
+      - heading "React Component Generator" [level=1] [ref=f17e7]
+      - generic [ref=f17e9]:
+        - generic [ref=f17e71]:
+          - generic [ref=f17e72]: Create a testimonial card component with a quote, avatar, name, and title
+          - generic [ref=f17e107]:
+            - generic [ref=f17e108]: Creating App.jsx
+            - separator [ref=f17e111]
+            - generic [ref=f17e112]: Creating TestimonialCard.jsx
+            - separator [ref=f17e115]
+            - paragraph [ref=f17e117]: Done. Created a testimonial card with a decorative opening quote mark, quote text, divider, and author section with avatar, name, and title. Uses warm amber and slate tones with subtle borders and shadows.
+        - generic [ref=f17e20]:
+          - textbox "Describe the React component you want to create..." [ref=f17e21]
+          - button [disabled] [ref=f17e22]
+    - separator [ref=f17e26]
+    - generic [ref=f17e28]:
+      - generic [ref=f17e29]:
+        - tablist [ref=f17e31]:
+          - tab "Preview" [ref=f17e32]
+          - tab "Code" [active] [selected] [ref=f17e33]
+        - generic [ref=f17e34]:
+          - button "Sign In" [ref=f17e35]
+          - button "Sign Up" [ref=f17e36]
+      - generic [ref=f17e118]:
+        - generic [ref=f17e124]:
+          - generic [ref=f17e125]:
+            - generic [ref=f17e126] [cursor=pointer]: components
+            - generic [ref=f17e132]: TestimonialCard.jsx
+          - generic [ref=f17e141]: App.jsx
+        - separator [ref=f17e149]
+        - code [ref=f17e154]:
+          - generic [ref=f17e155]:
+            - generic [ref=f17e157]:
+              - generic [ref=f17e158]: "1"
+              - generic [ref=f17e161]: "2"
+              - generic [ref=f17e163]:
+                - generic [ref=f17e164] [cursor=pointer]: 
+                - generic [ref=f17e165]: "3"
+              - generic [ref=f17e166]:
+                - generic [ref=f17e167] [cursor=pointer]: 
+                - generic [ref=f17e168]: "4"
+              - generic [ref=f17e169]:
+                - generic [ref=f17e170] [cursor=pointer]: 
+                - generic [ref=f17e171]: "5"
+              - generic [ref=f17e173]:
+                - generic [ref=f17e174] [cursor=pointer]: 
+                - generic [ref=f17e175]: "6"
+              - generic [ref=f17e176]: "7"
+              - generic [ref=f17e179]: "8"
+              - generic [ref=f17e182]: "9"
+              - generic [ref=f17e184]: "10"
+              - generic [ref=f17e186]: "11"
+              - generic [ref=f17e188]: "12"
+              - generic [ref=f17e190]: "13"
+              - generic [ref=f17e192]: "14"
+              - generic [ref=f17e194]: "15"
+            - generic [ref=f17e254]:
+              - generic [ref=f17e255]: import TestimonialCard from '@/components/TestimonialCard';
+              - generic [ref=f17e258]: "export default function App() {"
+              - generic [ref=f17e260]: return (
+              - generic [ref=f17e262]: <div className="min-h-screen bg-gradient-to-br from-slate-50 via-amber-50
+              - generic [ref=f17e264]: to-slate-100 flex items-center justify-center p-6">
+              - generic [ref=f17e266]: <TestimonialCard
+              - generic [ref=f17e268]: quote="The attention to detail and thoughtfulness in every interaction
+              - generic [ref=f17e270]: made all the difference. I felt genuinely heard and valued."
+              - generic [ref=f17e272]: avatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?
+              - generic [ref=f17e274]: w=400&h=400&fit=crop"
+              - generic [ref=f17e276]: name="Sarah Chen"
+              - generic [ref=f17e278]: title="Creative Director"
+              - generic [ref=f17e280]: />
+              - generic [ref=f17e282]: </div>
+              - generic [ref=f17e284]: );
+              - generic [ref=f17e286]: "}"
+            - textbox "Editor content" [ref=f17e290]
+            - generic:
+              - generic:
+                - generic:
+                  - list
+  - generic [ref=f17e53] [cursor=pointer]:
+    - button "Open issues overlay" [ref=f17e54]:
+      - generic [ref=f17e58]:
+        - generic [ref=f17e59]: "0"
+        - generic [ref=f17e60]: "1"
+      - generic [ref=f17e61]: Issue
+    - button "Collapse issues badge" [ref=f17e62]
+  - alert [ref=f17e65]
+  - generic [ref=f17e291]:
+    - alert
+    - alert

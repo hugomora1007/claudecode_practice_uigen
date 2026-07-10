@@ -1,0 +1,106 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e3]:
+    - generic [ref=f8e5]:
+      - heading "React Component Generator" [level=1] [ref=f8e7]
+      - generic [ref=f8e9]:
+        - generic [ref=f8e71]:
+          - generic [ref=f8e72]: Create a testimonial card component with a quote, avatar, name, and title
+          - generic [ref=f8e107]:
+            - generic [ref=f8e108]: Creating App.jsx
+            - separator [ref=f8e111]
+            - generic [ref=f8e112]: Creating TestimonialCard.jsx
+            - separator [ref=f8e115]
+            - generic [ref=f8e116]:
+              - paragraph [ref=f8e117]: "Done. Created a testimonial card with:"
+              - list [ref=f8e118]:
+                - listitem [ref=f8e119]: Elegant serif quote mark accent
+                - listitem [ref=f8e120]: Warm amber/orange color palette with subtle gradients
+                - listitem [ref=f8e121]: Smooth hover effects (glow background, shadow lift)
+                - listitem [ref=f8e122]: Clean typography hierarchy
+                - listitem [ref=f8e123]: Avatar with border and hover overlay
+                - listitem [ref=f8e124]: Responsive design with Tailwind
+        - generic [ref=f8e20]:
+          - textbox "Describe the React component you want to create..." [ref=f8e21]
+          - button [disabled] [ref=f8e22]
+    - separator [ref=f8e26]
+    - generic [ref=f8e28]:
+      - generic [ref=f8e29]:
+        - tablist [ref=f8e31]:
+          - tab "Preview" [ref=f8e32]
+          - tab "Code" [active] [selected] [ref=f8e33]
+        - generic [ref=f8e34]:
+          - button "Sign In" [ref=f8e35]
+          - button "Sign Up" [ref=f8e36]
+      - generic [ref=f8e125]:
+        - generic [ref=f8e131]:
+          - generic [ref=f8e132]:
+            - generic [ref=f8e133] [cursor=pointer]: components
+            - generic [ref=f8e139]: TestimonialCard.jsx
+          - generic [ref=f8e148]: App.jsx
+        - separator [ref=f8e156]
+        - code [ref=f8e161]:
+          - generic [ref=f8e162]:
+            - generic [ref=f8e164]:
+              - generic [ref=f8e165]: "1"
+              - generic [ref=f8e168]: "2"
+              - generic [ref=f8e170]:
+                - generic [ref=f8e171] [cursor=pointer]: 
+                - generic [ref=f8e172]: "3"
+              - generic [ref=f8e173]:
+                - generic [ref=f8e174] [cursor=pointer]: 
+                - generic [ref=f8e175]: "4"
+              - generic [ref=f8e176]:
+                - generic [ref=f8e177] [cursor=pointer]: 
+                - generic [ref=f8e178]: "5"
+              - generic [ref=f8e180]:
+                - generic [ref=f8e181] [cursor=pointer]: 
+                - generic [ref=f8e182]: "6"
+              - generic [ref=f8e183]:
+                - generic [ref=f8e184] [cursor=pointer]: 
+                - generic [ref=f8e185]: "7"
+              - generic [ref=f8e186]: "8"
+              - generic [ref=f8e190]: "9"
+              - generic [ref=f8e193]: "10"
+              - generic [ref=f8e195]: "11"
+              - generic [ref=f8e197]: "12"
+              - generic [ref=f8e199]: "13"
+              - generic [ref=f8e201]: "14"
+              - generic [ref=f8e203]: "15"
+              - generic [ref=f8e205]: "16"
+              - generic [ref=f8e207]: "17"
+            - generic [ref=f8e289]:
+              - generic [ref=f8e290]: import TestimonialCard from '@/components/TestimonialCard';
+              - generic [ref=f8e293]: "export default function App() {"
+              - generic [ref=f8e295]: return (
+              - generic [ref=f8e297]: <div className="min-h-screen bg-gradient-to-br from-slate-50 via-amber-50
+              - generic [ref=f8e299]: to-slate-100 p-8">
+              - generic [ref=f8e301]: <div className="max-w-md mx-auto">
+              - generic [ref=f8e303]: <TestimonialCard
+              - generic [ref=f8e305]: quote="The attention to detail and thoughtful design made all the
+              - generic [ref=f8e307]: difference. This team truly understands what it means to create
+              - generic [ref=f8e309]: something meaningful."
+              - generic [ref=f8e311]: avatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?
+              - generic [ref=f8e313]: w=400&h=400&fit=crop"
+              - generic [ref=f8e315]: name="Sarah Chen"
+              - generic [ref=f8e317]: title="Creative Director"
+              - generic [ref=f8e319]: />
+              - generic [ref=f8e321]: </div>
+              - generic [ref=f8e323]: </div>
+              - generic [ref=f8e325]: );
+              - generic [ref=f8e327]: "}"
+            - textbox "Editor content" [ref=f8e331]
+            - generic:
+              - generic:
+                - generic:
+                  - list
+  - generic [ref=f8e53] [cursor=pointer]:
+    - button "Open issues overlay" [ref=f8e54]:
+      - generic [ref=f8e58]:
+        - generic [ref=f8e59]: "0"
+        - generic [ref=f8e60]: "1"
+      - generic [ref=f8e61]: Issue
+    - button "Collapse issues badge" [ref=f8e62]
+  - alert [ref=f8e65]
+  - generic [ref=f8e332]:
+    - alert
+    - alert

@@ -1,0 +1,109 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e5]:
+      - heading "React Component Generator" [level=1] [ref=f3e7]
+      - generic [ref=f3e9]:
+        - generic [ref=f3e287]:
+          - generic [ref=f3e288]: Create a simple primary button component
+          - generic [ref=f3e328]:
+            - generic [ref=f3e329]: Creating App.jsx
+            - separator [ref=f3e332]
+            - paragraph [ref=f3e334]: "Now creating the button component:"
+            - generic [ref=f3e335]: Creating PrimaryButton.jsx
+            - separator [ref=f3e338]
+            - paragraph [ref=f3e340]:
+              - text: Done. Created a
+              - code [ref=f3e477]: PrimaryButton
+              - text: component with emerald green styling, smooth transitions, and an active scale effect. It supports disabled state and accepts standard button props.
+        - generic [ref=f3e20]:
+          - textbox "Describe the React component you want to create..." [ref=f3e21]
+          - button [disabled] [ref=f3e22]
+    - separator [ref=f3e26]
+    - generic [ref=f3e28]:
+      - generic [ref=f3e29]:
+        - tablist [ref=f3e31]:
+          - tab "Preview" [ref=f3e32]
+          - tab "Code" [selected] [ref=f3e33]
+        - generic [ref=f3e34]:
+          - button "Sign In" [ref=f3e35]
+          - button "Sign Up" [ref=f3e36]
+      - generic [ref=f3e343]:
+        - generic [ref=f3e349]:
+          - generic [ref=f3e350]:
+            - generic [ref=f3e351] [cursor=pointer]: components
+            - generic [ref=f3e357]: PrimaryButton.jsx
+          - generic [ref=f3e366]: App.jsx
+        - separator [ref=f3e374]
+        - code [ref=f3e379]:
+          - generic [ref=f3e380]:
+            - generic [ref=f3e382]:
+              - generic [ref=f3e478]:
+                - generic [ref=f3e479] [cursor=pointer]: 
+                - generic [ref=f3e480]: "1"
+              - generic [ref=f3e481]:
+                - generic [ref=f3e482] [cursor=pointer]: 
+                - generic [ref=f3e483]: "2"
+              - generic [ref=f3e484]:
+                - generic [ref=f3e485] [cursor=pointer]: 
+                - generic [ref=f3e486]: "3"
+              - generic [ref=f3e487]: "4"
+              - generic [ref=f3e489]: "5"
+              - generic [ref=f3e491]:
+                - generic [ref=f3e492] [cursor=pointer]: 
+                - generic [ref=f3e493]: "6"
+              - generic [ref=f3e400]: "7"
+              - generic [ref=f3e402]: "8"
+              - generic [ref=f3e494]:
+                - generic [ref=f3e495] [cursor=pointer]: 
+                - generic [ref=f3e496]: "9"
+              - generic [ref=f3e497]:
+                - generic [ref=f3e498] [cursor=pointer]: 
+                - generic [ref=f3e499]: "10"
+              - generic [ref=f3e408]: "11"
+              - generic [ref=f3e501]: "12"
+              - generic [ref=f3e504]: "13"
+              - generic [ref=f3e506]: "14"
+              - generic [ref=f3e508]: "15"
+              - generic [ref=f3e510]:
+                - generic [ref=f3e511] [cursor=pointer]: 
+                - generic [ref=f3e512]: "16"
+              - generic [ref=f3e513]: "17"
+              - generic [ref=f3e515]: "18"
+              - generic [ref=f3e517]: "19"
+              - generic [ref=f3e519]: "20"
+              - generic [ref=f3e521]: "21"
+            - generic [ref=f3e449]:
+              - generic [ref=f3e599]: "export default function PrimaryButton({ children, disabled = false, onClick, ..."
+              - generic [ref=f3e601]: return (
+              - generic [ref=f3e603]: <button
+              - generic [ref=f3e605]: "onClick={onClick}"
+              - generic [ref=f3e607]: "disabled={disabled}"
+              - generic [ref=f3e609]: "className={`"
+              - generic [ref=f3e611]: px-6 py-2.5 rounded-md font-medium text-sm
+              - generic [ref=f3e613]: transition-all duration-200 ease-out
+              - generic [ref=f3e615]: "${"
+              - generic [ref=f3e617]: disabled
+              - generic [ref=f3e619]: "? 'bg-slate-300 text-slate-500 cursor-not-allowed'"
+              - generic [ref=f3e621]: "props }) {"
+              - generic [ref=f3e623]: ": 'bg-emerald-600 text-white hover:bg-emerald-700 active:scale-95"
+              - generic [ref=f3e625]: shadow-sm hover:shadow-md'
+              - generic [ref=f3e627]: "}"
+              - generic [ref=f3e629]: "`}"
+              - generic [ref=f3e631]: "{...props}"
+              - generic [ref=f3e633]: ">"
+              - generic [ref=f3e635]: "{children}"
+              - generic [ref=f3e637]: </button>
+              - generic [ref=f3e639]: );
+              - generic [ref=f3e641]: "}"
+            - textbox "Editor content" [ref=f3e475]: "); }"
+  - generic [ref=f3e53] [cursor=pointer]:
+    - button "Open issues overlay" [ref=f3e54]:
+      - generic [ref=f3e58]:
+        - generic [ref=f3e59]: "0"
+        - generic [ref=f3e60]: "1"
+      - generic [ref=f3e61]: Issue
+    - button "Collapse issues badge" [ref=f3e62]
+  - alert [ref=f3e65]
+  - generic [ref=f3e476]:
+    - alert
+    - alert

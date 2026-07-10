@@ -1,0 +1,91 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e3]:
+    - generic [ref=f14e5]:
+      - heading "React Component Generator" [level=1] [ref=f14e7]
+      - generic [ref=f14e9]:
+        - generic [ref=f14e54]:
+          - generic [ref=f14e55]: Create a testimonial card component with a quote, avatar, name, and title
+          - generic [ref=f14e90]:
+            - generic [ref=f14e91]: Creating App.jsx
+            - separator [ref=f14e94]
+            - generic [ref=f14e95]: Creating TestimonialCard.jsx
+            - separator [ref=f14e98]
+            - paragraph [ref=f14e100]: Done. Created a testimonial card component with a decorative curly quote mark, quote text, avatar with ring accent, and author name/title. The card has a subtle gradient background and smooth hover effect.
+        - generic [ref=f14e20]:
+          - textbox "Describe the React component you want to create..." [ref=f14e21]
+          - button [disabled] [ref=f14e22]
+    - separator [ref=f14e26]
+    - generic [ref=f14e28]:
+      - generic [ref=f14e29]:
+        - tablist [ref=f14e31]:
+          - tab "Preview" [ref=f14e32]
+          - tab "Code" [active] [selected] [ref=f14e33]
+        - generic [ref=f14e34]:
+          - button "Sign In" [ref=f14e35]
+          - button "Sign Up" [ref=f14e36]
+      - generic [ref=f14e101]:
+        - generic [ref=f14e107]:
+          - generic [ref=f14e108]:
+            - generic [ref=f14e109] [cursor=pointer]: components
+            - generic [ref=f14e115]: TestimonialCard.jsx
+          - generic [ref=f14e124]: App.jsx
+        - separator [ref=f14e132]
+        - code [ref=f14e137]:
+          - generic [ref=f14e138]:
+            - generic [ref=f14e140]:
+              - generic [ref=f14e141]: "1"
+              - generic [ref=f14e144]: "2"
+              - generic [ref=f14e146]:
+                - generic [ref=f14e147] [cursor=pointer]: 
+                - generic [ref=f14e148]: "3"
+              - generic [ref=f14e149]:
+                - generic [ref=f14e150] [cursor=pointer]: 
+                - generic [ref=f14e151]: "4"
+              - generic [ref=f14e152]:
+                - generic [ref=f14e153] [cursor=pointer]: 
+                - generic [ref=f14e154]: "5"
+              - generic [ref=f14e156]:
+                - generic [ref=f14e157] [cursor=pointer]: 
+                - generic [ref=f14e158]: "6"
+              - generic [ref=f14e159]:
+                - generic [ref=f14e160] [cursor=pointer]: 
+                - generic [ref=f14e161]: "7"
+              - generic [ref=f14e162]: "8"
+              - generic [ref=f14e166]: "9"
+              - generic [ref=f14e169]: "10"
+              - generic [ref=f14e171]: "11"
+              - generic [ref=f14e173]: "12"
+              - generic [ref=f14e175]: "13"
+              - generic [ref=f14e177]: "14"
+              - generic [ref=f14e179]: "15"
+              - generic [ref=f14e181]: "16"
+              - generic [ref=f14e183]: "17"
+            - generic [ref=f14e265]:
+              - generic [ref=f14e266]: import TestimonialCard from '@/components/TestimonialCard';
+              - generic [ref=f14e269]: "export default function App() {"
+              - generic [ref=f14e271]: return (
+              - generic [ref=f14e273]: <div className="min-h-screen bg-gradient-to-br from-slate-50 via-amber-50
+              - generic [ref=f14e275]: to-slate-100 p-8">
+              - generic [ref=f14e277]: <div className="max-w-md mx-auto">
+              - generic [ref=f14e279]: <TestimonialCard
+              - generic [ref=f14e281]: quote="The attention to detail and thoughtfulness in every
+              - generic [ref=f14e283]: interaction made all the difference. I felt genuinely heard and
+              - generic [ref=f14e285]: valued."
+              - generic [ref=f14e287]: avatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?
+              - generic [ref=f14e289]: w=400&h=400&fit=crop"
+              - generic [ref=f14e291]: name="Sarah Chen"
+              - generic [ref=f14e293]: title="Creative Director"
+              - generic [ref=f14e295]: />
+              - generic [ref=f14e297]: </div>
+              - generic [ref=f14e299]: </div>
+              - generic [ref=f14e301]: );
+              - generic [ref=f14e303]: "}"
+            - textbox "Editor content" [ref=f14e307]
+            - generic:
+              - generic:
+                - generic:
+                  - list
+  - alert [ref=f14e48]
+  - generic [ref=f14e308]:
+    - alert
+    - alert
